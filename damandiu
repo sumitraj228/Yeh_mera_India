@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+	<link rel="stylesheet" type="text/css" href="andamannicobar.css">
+	
+</head>
+
+
+<body>
+ 
+
+
+
+    <div class="wrapper">
+        
+        <h2><strong>Chandigarh<span></span></strong></h2>
+    
+        <div class="cards">
+            
+            <a href="#travel">
+            <figure class="card">
+    
+                <img src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80" />
+    
+                <figcaption>Travel</figcaption>
+    
+            </figure></a>
+
+
+
+            <a href="#food">
+            <figure class="card">
+    
+                <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80" />
+    
+                <figcaption>Food</figcaption>
+    
+            </figure></a>
+    
+
+             <a href="#festivals">
+            <figure class="card">
+    
+                <img src="https://images.unsplash.com/photo-1617173315663-a6f63e72634e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=408&q=80" />
+    
+                <figcaption>Festivals</figcaption>
+    
+            </figure></a>
+
+
+
+            <a href="#facts">
+            <figure class="card">
+    
+                <img src="https://images.unsplash.com/photo-1566314737379-76aaeadb0511?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80" />
+    
+                <figcaption>Facts</figcaption>
+    
+            </figure></a>
+        </div>
+        </div>
+
+
+        <br><br>
+  
+        
+   
+        
+        
+    
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a name="travel" id="travel">
+        <h2><strong>Travel</strong></h2></a>
+    
+        <div class="news">
+    
+        
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+            <figure class="article">
+                <img src=" "  alt="  " />
+    
+                <figcaption>
+                           <h3> </h3>
+                 <p>
+    
+                </p>
+            </figcaption>
+            </figure>
+
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br>
+
+
+<a name="food" id="food">
+    <h2><strong>Food</strong></h2></a>
+    
+    <div class="news">
+
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+
+        <figure class="article">
+            <img src=" "  alt="  " />
+
+            <figcaption>
+                       <h3> </h3>
+             <p>
+
+            </p>
+        </figcaption>
+        </figure>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br>
+
+
+
+<a name="festivals" id="festivals">
+<h2><strong>Festivals</strong></h2></a>
+    
+
+<div class="news">
+
+
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+
+    <figure class="article">
+        <img src=" "  alt="  " />
+
+        <figcaption>
+                   <h3> </h3>
+         <p>
+
+        </p>
+    </figcaption>
+    </figure>
+
+
+   
+   
+
+
+
+    </div>
+    
+   
+    
+    
+
+
+
+
+
+    
+
+<br><br><br><br>
+
+
+<br><br>
+
+<main>
+	<a name="facts" id="facts">
+	<h1>Facts About Andaman & Nicobar</h1>
+</a>
+	<ol class="gradient-list">
+	  <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+     <li>
+        <H3> </H3>
+      
+    </li> 
+    
+    
+    <li>
+        <H3> </H3>
+      
+    </li> 
+    
+    <li>
+        <H3> </H3>
+      
+    </li> 
+    
+    <li>
+        <H3> </H3>
+      
+    </li> 
+    
+    <li>
+        <H3> </H3>
+      
+    </li>
+    
+    <li>
+        <H3> </H3>
+      
+    </li> 
+	 
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+    <li>
+        <H3> </H3>
+      
+    </li>
+
+	</ol>
+  </main>
+
+
+
+
+
+
+
+
+      </body>
+      </html>
