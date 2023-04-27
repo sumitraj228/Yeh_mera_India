@@ -13,65 +13,6 @@
     
 </head>
 
-<body>
-  <form id="search-form">
-    <label for="city-input" style="text-align: left;">Know the Weather of a City</label></h4>
-
-
-    
-    <input type="text" id="city-input" required>
-    <button type="submit">Search</button>
-  </form>
-  <div id="weather-data"></div>
-  <script>
-    const apiKey = "";
-    const weatherResult = document.getElementById("weather-data");
-
-    function displayWeatherData(city, temperature, feelsLike, humidity, description) {
-      const weatherData = `
-        <h2>${city}</h2>
-        <p>Temperature: ${temperature} &#8451;</p>
-        <p>Feels like: ${feelsLike} &#8451;</p>
-        <p>Humidity: ${humidity}%</p>
-        <p>Description: ${description}</p>
-      `;
-      weatherResult.innerHTML = weatherData;
-    }
-
-    function searchCityWeather(city) {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
-      fetch(url)
-        .then((response) => {
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-          return response.json();
-        })
-        .then((data) => {
-          const cityName = data.name;
-          const temperature = data.main.temp;
-          const feelsLike = data.main.feels_like;
-          const humidity = data.main.humidity;
-          const description = data.weather[0].description;
-          displayWeatherData(cityName, temperature, feelsLike, humidity, description);
-        })
-        .catch((error) => {
-          console.error("There was an error fetching weather data:", error);
-          weatherResult.innerHTML = "<p>Unable to retrieve weather data for the specified city.</p>";
-        });
-    }
-
-    const searchForm = document.getElementById("search-form");
-    searchForm.addEventListener("submit", (event) => {
-      event.preventDefault();
-      const cityInput = document.getElementById("city-input");
-      const city = cityInput.value;
-      searchCityWeather(city);
-      cityInput.value = "";
-    });
-  </script>
-</body>
 
 
 
@@ -1017,6 +958,71 @@
                             </div>
                         </div></div>
                         
+		    
+<div>
+  <form id="search-form">
+    <label for="city-input" style="text-align: left;">Know the Weather of a City</label></h4>
+
+
+    
+    <input type="text" id="city-input" required>
+    <button type="submit">Search</button>
+  </form>
+  <div id="weather-data"></div>
+  <script>
+    const apiKey = "";
+    const weatherResult = document.getElementById("weather-data");
+
+    function displayWeatherData(city, temperature, feelsLike, humidity, description) {
+      const weatherData = `
+        <h2>${city}</h2>
+        <p>Temperature: ${temperature} &#8451;</p>
+        <p>Feels like: ${feelsLike} &#8451;</p>
+        <p>Humidity: ${humidity}%</p>
+        <p>Description: ${description}</p>
+      `;
+      weatherResult.innerHTML = weatherData;
+    }
+
+    function searchCityWeather(city) {
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+
+      fetch(url)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
+        .then((data) => {
+          const cityName = data.name;
+          const temperature = data.main.temp;
+          const feelsLike = data.main.feels_like;
+          const humidity = data.main.humidity;
+          const description = data.weather[0].description;
+          displayWeatherData(cityName, temperature, feelsLike, humidity, description);
+        })
+        .catch((error) => {
+          console.error("There was an error fetching weather data:", error);
+          weatherResult.innerHTML = "<p>Unable to retrieve weather data for the specified city.</p>";
+        });
+    }
+
+    const searchForm = document.getElementById("search-form");
+    searchForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const cityInput = document.getElementById("city-input");
+      const city = cityInput.value;
+      searchCityWeather(city);
+      cityInput.value = "";
+    });
+  </script>
+</div>
+	
+	
+	
+	
+	
                 <div class="footer_bg">
                     <div class="footer_bg_one"></div>
                     <div class="footer_bg_two"></div>
